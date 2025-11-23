@@ -1,0 +1,176 @@
+[
+	{
+		"Name": "NoItem",
+		"ID": "None",
+		"Static Mesh": "None",
+		"Transform":
+		{
+			"Rotation":
+			{
+				"X": 0,
+				"Y": -0,
+				"Z": 0,
+				"W": 1
+			},
+			"Translation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale3D":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			}
+		},
+		"Attach Socket": "root",
+		"Anim Override": "None"
+	},
+	{
+		"Name": "Backpack",
+		"ID": "Backpack",
+		"Static Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/Accessories/SM_Backpack.SM_Backpack'",
+		"Transform":
+		{
+			"Rotation":
+			{
+				"X": 0,
+				"Y": -0,
+				"Z": 0,
+				"W": 1
+			},
+			"Translation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale3D":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			}
+		},
+		"Attach Socket": "Socket_SI_Backpack",
+		"Anim Override": "Backpack"
+	},
+	{
+		"Name": "Briefcase",
+		"ID": "Briefcase",
+		"Static Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/Accessories/SM_Briefcase.SM_Briefcase'",
+		"Transform":
+		{
+			"Rotation":
+			{
+				"X": 0,
+				"Y": -0,
+				"Z": 0,
+				"W": 1
+			},
+			"Translation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale3D":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			}
+		},
+		"Attach Socket": "Socket_SI_Briefcase",
+		"Anim Override": "Briefcase"
+	},
+	{
+		"Name": "Cup",
+		"ID": "Cup",
+		"Static Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/Accessories/SM_Cup.SM_Cup'",
+		"Transform":
+		{
+			"Rotation":
+			{
+				"X": 0,
+				"Y": -0,
+				"Z": 0,
+				"W": 1
+			},
+			"Translation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale3D":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			}
+		},
+		"Attach Socket": "Socket_SI_Cup_L",
+		"Anim Override": "Cup"
+	},
+	{
+		"Name": "Phone",
+		"ID": "Phone",
+		"Static Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/Accessories/SM_Phone.SM_Phone'",
+		"Transform":
+		{
+			"Rotation":
+			{
+				"X": 0,
+				"Y": -0,
+				"Z": 0,
+				"W": 1
+			},
+			"Translation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale3D":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			}
+		},
+		"Attach Socket": "Socket_SI_Phone",
+		"Anim Override": "Phone"
+	},
+	{
+		"Name": "Purse",
+		"ID": "Purse",
+		"Static Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/Accessories/SM_Purse.SM_Purse'",
+		"Transform":
+		{
+			"Rotation":
+			{
+				"X": 0,
+				"Y": -0,
+				"Z": 0,
+				"W": 1
+			},
+			"Translation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale3D":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			}
+		},
+		"Attach Socket": "Socket_SI_Purse",
+		"Anim Override": "Purse"
+	}
+]

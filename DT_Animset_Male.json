@@ -1,6 +1,18 @@
 [
 	{
 		"Name": "Unarmed",
+		"General":
+		{
+			"Jump":
+			{
+				"Jump Start": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Jump_Start.AS_MM_Unarmed_Jump_Start'",
+				"Jump Start Loop": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Jump_Start_Loop.AS_MM_Unarmed_Jump_Start_Loop'",
+				"Jump Apex": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Jump_Apex.AS_MM_Unarmed_Jump_Apex'",
+				"Jump Fall Loop": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Jump_Fall_Loop.AS_MM_Unarmed_Jump_Fall_Loop'",
+				"Jump Fall Land": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Jump_Fall_Land.AS_MM_Unarmed_Jump_Fall_Land'",
+				"Jump Recovery Additive": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Jump_RecoveryAdditive.AS_MM_Unarmed_Jump_RecoveryAdditive'"
+			}
+		},
 		"Movement Groups":
 		{
 			"Walk":
