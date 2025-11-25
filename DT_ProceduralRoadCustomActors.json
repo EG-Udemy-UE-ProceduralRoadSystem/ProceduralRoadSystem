@@ -1,0 +1,26 @@
+[
+	{
+		"Name": "NoCustomActors",
+		"Enable Left Side Custom Actor": false,
+		"Enable Right Side Custom Actor": false,
+		"Custom Actor Class": "None",
+		"Left Side Custom Actor Offset": -800,
+		"Right Side Custom Actor Offset": 800
+	},
+	{
+		"Name": "1Way_Streetlights",
+		"Enable Left Side Custom Actor": true,
+		"Enable Right Side Custom Actor": true,
+		"Custom Actor Class": "/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Blueprints/ProceduralRoads/Streetlights/BP_Streetlight.BP_Streetlight_C'",
+		"Left Side Custom Actor Offset": -420,
+		"Right Side Custom Actor Offset": 420
+	},
+	{
+		"Name": "2Way_Streetlights",
+		"Enable Left Side Custom Actor": true,
+		"Enable Right Side Custom Actor": true,
+		"Custom Actor Class": "/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Blueprints/ProceduralRoads/Streetlights/BP_Streetlight.BP_Streetlight_C'",
+		"Left Side Custom Actor Offset": -800,
+		"Right Side Custom Actor Offset": 800
+	}
+]

@@ -1,0 +1,200 @@
+[
+	{
+		"Name": "1Way",
+		"Pavement":
+		{
+			"Pavement Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Road.SM_1Way_Road'"
+		},
+		"Segment":
+		{
+			"Segment Begin Roll": 0,
+			"Segment End Roll": 0
+		},
+		"Sidewalks":
+		{
+			"Enable Left Sidewalk": false,
+			"Enable Right Sidewalk": false,
+			"Left Sidewalk Mesh": "None",
+			"Right Sidewalk Mesh": "None"
+		},
+		"Rails":
+		{
+			"Enable Left Rail": false,
+			"Enable Right Rail": false,
+			"Left Rail Mesh": "None",
+			"Right Rail Mesh": "None"
+		},
+		"Supports":
+		{
+			"Enable": true,
+			"Support Base Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Support_Base.SM_1Way_Support_Base'",
+			"Support Column Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Support_Column.SM_1Way_Support_Column'",
+			"Support Column Height": 20
+		}
+	},
+	{
+		"Name": "2Way",
+		"Pavement":
+		{
+			"Pavement Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Road.SM_2Way_Road'"
+		},
+		"Segment":
+		{
+			"Segment Begin Roll": 0,
+			"Segment End Roll": 0
+		},
+		"Sidewalks":
+		{
+			"Enable Left Sidewalk": false,
+			"Enable Right Sidewalk": false,
+			"Left Sidewalk Mesh": "None",
+			"Right Sidewalk Mesh": "None"
+		},
+		"Rails":
+		{
+			"Enable Left Rail": false,
+			"Enable Right Rail": false,
+			"Left Rail Mesh": "None",
+			"Right Rail Mesh": "None"
+		},
+		"Supports":
+		{
+			"Enable": true,
+			"Support Base Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Support_Base.SM_2Way_Support_Base'",
+			"Support Column Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Support_Column.SM_2Way_Support_Column'",
+			"Support Column Height": 20
+		}
+	},
+	{
+		"Name": "1Way_Sidewalks",
+		"Pavement":
+		{
+			"Pavement Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Road.SM_1Way_Road'"
+		},
+		"Segment":
+		{
+			"Segment Begin Roll": 0,
+			"Segment End Roll": 0
+		},
+		"Sidewalks":
+		{
+			"Enable Left Sidewalk": true,
+			"Enable Right Sidewalk": true,
+			"Left Sidewalk Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Sidewalk_Left.SM_1Way_Sidewalk_Left'",
+			"Right Sidewalk Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Sidewalk_Right.SM_1Way_Sidewalk_Right'"
+		},
+		"Rails":
+		{
+			"Enable Left Rail": false,
+			"Enable Right Rail": false,
+			"Left Rail Mesh": "None",
+			"Right Rail Mesh": "None"
+		},
+		"Supports":
+		{
+			"Enable": true,
+			"Support Base Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Support_Base.SM_1Way_Support_Base'",
+			"Support Column Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Support_Column.SM_1Way_Support_Column'",
+			"Support Column Height": 20
+		}
+	},
+	{
+		"Name": "2Way_Sidewalks",
+		"Pavement":
+		{
+			"Pavement Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Road.SM_2Way_Road'"
+		},
+		"Segment":
+		{
+			"Segment Begin Roll": 0,
+			"Segment End Roll": 0
+		},
+		"Sidewalks":
+		{
+			"Enable Left Sidewalk": true,
+			"Enable Right Sidewalk": true,
+			"Left Sidewalk Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Sidewalk_Left.SM_2Way_Sidewalk_Left'",
+			"Right Sidewalk Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Sidewalk_Right.SM_2Way_Sidewalk_Right'"
+		},
+		"Rails":
+		{
+			"Enable Left Rail": false,
+			"Enable Right Rail": false,
+			"Left Rail Mesh": "None",
+			"Right Rail Mesh": "None"
+		},
+		"Supports":
+		{
+			"Enable": true,
+			"Support Base Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Support_Base.SM_2Way_Support_Base'",
+			"Support Column Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Support_Column.SM_2Way_Support_Column'",
+			"Support Column Height": 20
+		}
+	},
+	{
+		"Name": "1Way_Sidewalks_Rails",
+		"Pavement":
+		{
+			"Pavement Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Road.SM_1Way_Road'"
+		},
+		"Segment":
+		{
+			"Segment Begin Roll": 0,
+			"Segment End Roll": 0
+		},
+		"Sidewalks":
+		{
+			"Enable Left Sidewalk": true,
+			"Enable Right Sidewalk": true,
+			"Left Sidewalk Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Sidewalk_Left.SM_1Way_Sidewalk_Left'",
+			"Right Sidewalk Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Sidewalk_Right.SM_1Way_Sidewalk_Right'"
+		},
+		"Rails":
+		{
+			"Enable Left Rail": true,
+			"Enable Right Rail": true,
+			"Left Rail Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Rail_Left.SM_1Way_Rail_Left'",
+			"Right Rail Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Rail_Right.SM_1Way_Rail_Right'"
+		},
+		"Supports":
+		{
+			"Enable": true,
+			"Support Base Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Support_Base.SM_1Way_Support_Base'",
+			"Support Column Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Support_Column.SM_1Way_Support_Column'",
+			"Support Column Height": 20
+		}
+	},
+	{
+		"Name": "2Way_Sidewalks_Rails",
+		"Pavement":
+		{
+			"Pavement Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Road.SM_2Way_Road'"
+		},
+		"Segment":
+		{
+			"Segment Begin Roll": 0,
+			"Segment End Roll": 0
+		},
+		"Sidewalks":
+		{
+			"Enable Left Sidewalk": true,
+			"Enable Right Sidewalk": true,
+			"Left Sidewalk Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Sidewalk_Left.SM_2Way_Sidewalk_Left'",
+			"Right Sidewalk Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Sidewalk_Right.SM_2Way_Sidewalk_Right'"
+		},
+		"Rails":
+		{
+			"Enable Left Rail": true,
+			"Enable Right Rail": true,
+			"Left Rail Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Rail_Left.SM_2Way_Rail_Left'",
+			"Right Rail Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Rail_Right.SM_2Way_Rail_Right'"
+		},
+		"Supports":
+		{
+			"Enable": true,
+			"Support Base Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Support_Base.SM_2Way_Support_Base'",
+			"Support Column Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Support_Column.SM_2Way_Support_Column'",
+			"Support Column Height": 20
+		}
+	}
+]
