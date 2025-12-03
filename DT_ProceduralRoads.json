@@ -30,6 +30,15 @@
 			"Support Base Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Support_Base.SM_1Way_Support_Base'",
 			"Support Column Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Support_Column.SM_1Way_Support_Column'",
 			"Support Column Height": 20
+		},
+		"Landscape":
+		{
+			"Start Width": 600,
+			"End Width": 600,
+			"Start Side Falloff": 300,
+			"End Side Falloff": 300,
+			"Start Roll": 0,
+			"End Roll": 0
 		}
 	},
 	{
@@ -63,6 +72,15 @@
 			"Support Base Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Support_Base.SM_2Way_Support_Base'",
 			"Support Column Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Support_Column.SM_2Way_Support_Column'",
 			"Support Column Height": 20
+		},
+		"Landscape":
+		{
+			"Start Width": 850,
+			"End Width": 850,
+			"Start Side Falloff": 300,
+			"End Side Falloff": 300,
+			"Start Roll": 0,
+			"End Roll": 0
 		}
 	},
 	{
@@ -96,6 +114,15 @@
 			"Support Base Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Support_Base.SM_1Way_Support_Base'",
 			"Support Column Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Support_Column.SM_1Way_Support_Column'",
 			"Support Column Height": 20
+		},
+		"Landscape":
+		{
+			"Start Width": 600,
+			"End Width": 600,
+			"Start Side Falloff": 300,
+			"End Side Falloff": 300,
+			"Start Roll": 0,
+			"End Roll": 0
 		}
 	},
 	{
@@ -129,6 +156,15 @@
 			"Support Base Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Support_Base.SM_2Way_Support_Base'",
 			"Support Column Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Support_Column.SM_2Way_Support_Column'",
 			"Support Column Height": 20
+		},
+		"Landscape":
+		{
+			"Start Width": 850,
+			"End Width": 850,
+			"Start Side Falloff": 300,
+			"End Side Falloff": 300,
+			"Start Roll": 0,
+			"End Roll": 0
 		}
 	},
 	{
@@ -162,6 +198,15 @@
 			"Support Base Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Support_Base.SM_1Way_Support_Base'",
 			"Support Column Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/1Way/SM_1Way_Support_Column.SM_1Way_Support_Column'",
 			"Support Column Height": 20
+		},
+		"Landscape":
+		{
+			"Start Width": 600,
+			"End Width": 600,
+			"Start Side Falloff": 300,
+			"End Side Falloff": 300,
+			"Start Roll": 0,
+			"End Roll": 0
 		}
 	},
 	{
@@ -195,6 +240,15 @@
 			"Support Base Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Support_Base.SM_2Way_Support_Base'",
 			"Support Column Mesh": "/Script/Engine.StaticMesh'/Game/PRSEssentials/Meshes/ModularRoads/Roads/2Way/SM_2Way_Support_Column.SM_2Way_Support_Column'",
 			"Support Column Height": 20
+		},
+		"Landscape":
+		{
+			"Start Width": 850,
+			"End Width": 850,
+			"Start Side Falloff": 300,
+			"End Side Falloff": 300,
+			"Start Roll": 0,
+			"End Roll": 0
 		}
 	}
 ]
