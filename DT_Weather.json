@@ -1,0 +1,52 @@
+[
+	{
+		"Name": "Sunny",
+		"Weather Effect Class": "/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Blueprints/Weather/BP_WeatherEffect_Sunny.BP_WeatherEffect_Sunny_C'",
+		"TOD Settings":
+		{
+			"Post Processing Volume":
+			{
+				"Exposure Compensation": 0.80000000000000004
+			},
+			"Volumetric Clouds":
+			{
+				"Storm Cloud Density": 0
+			},
+			"Sky Atmosphere":
+			{
+				"Rayleigh Scattering":
+				{
+					"R": 0.174647,
+					"G": 0.40724,
+					"B": 1,
+					"A": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "Rainy",
+		"Weather Effect Class": "/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Blueprints/Weather/BP_WeatherEffect_Rainy.BP_WeatherEffect_Rainy_C'",
+		"TOD Settings":
+		{
+			"Post Processing Volume":
+			{
+				"Exposure Compensation": 0.10000000000000001
+			},
+			"Volumetric Clouds":
+			{
+				"Storm Cloud Density": 0.5
+			},
+			"Sky Atmosphere":
+			{
+				"Rayleigh Scattering":
+				{
+					"R": 0.040933,
+					"G": 0.095447,
+					"B": 0.234375,
+					"A": 1
+				}
+			}
+		}
+	}
+]
