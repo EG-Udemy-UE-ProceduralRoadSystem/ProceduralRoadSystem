@@ -1,0 +1,392 @@
+[
+	{
+		"Name": "Unarmed",
+		"General":
+		{
+			"Jump":
+			{
+				"Jump Start": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Jump_Start.AS_MM_Unarmed_Jump_Start'",
+				"Jump Start Loop": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Jump_Start_Loop.AS_MM_Unarmed_Jump_Start_Loop'",
+				"Jump Apex": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Jump_Apex.AS_MM_Unarmed_Jump_Apex'",
+				"Jump Fall Loop": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Jump_Fall_Loop.AS_MM_Unarmed_Jump_Fall_Loop'",
+				"Jump Fall Land": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Jump_Fall_Land.AS_MM_Unarmed_Jump_Fall_Land'",
+				"Jump Recovery Additive": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Jump_RecoveryAdditive.AS_MM_Unarmed_Jump_RecoveryAdditive'"
+			}
+		},
+		"Movement Groups":
+		{
+			"Walk":
+			{
+				"Idle": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MF_Unarmed_Idle_Ready.AS_MF_Unarmed_Idle_Ready'",
+				"Cycle":
+				{
+					"Forward": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MF_Unarmed_Walk_Fwd.AS_MF_Unarmed_Walk_Fwd'",
+					"Backward": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MF_Unarmed_Walk_Bwd.AS_MF_Unarmed_Walk_Bwd'",
+					"Left": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MF_Unarmed_Walk_Left.AS_MF_Unarmed_Walk_Left'",
+					"Right": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MF_Unarmed_Walk_Right.AS_MF_Unarmed_Walk_Right'"
+				},
+				"Configs":
+				{
+					"Max Walk Speed": 200,
+					"Max Acceleration": 300
+				},
+				"Anim Overrides":
+				{
+					"Cup":
+					{
+						"Idle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_CupIdle_1.AS_FTN_CupIdle_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						},
+						"Cycle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_CupIdle_1.AS_FTN_CupIdle_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						}
+					},
+					"Backpack":
+					{
+						"Idle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_AS_FTN_BackPack_1.AS_AS_FTN_BackPack_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						},
+						"Cycle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_AS_FTN_BackPack_1.AS_AS_FTN_BackPack_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						}
+					},
+					"Briefcase":
+					{
+						"Idle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTO/AS_FTO_Purse_Hold.AS_FTO_Purse_Hold'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						},
+						"Cycle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTO/AS_FTO_Purse_Hold.AS_FTO_Purse_Hold'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						}
+					},
+					"Phone":
+					{
+						"Idle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_CellPhoneIdle_1.AS_FTN_CellPhoneIdle_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						},
+						"Cycle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_CellPhoneIdle_1.AS_FTN_CellPhoneIdle_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						}
+					},
+					"Purse":
+					{
+						"Idle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_Purse_Hold.AS_FTN_Purse_Hold'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						},
+						"Cycle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_Purse_Hold.AS_FTN_Purse_Hold'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						}
+					}
+				}
+			},
+			"Jog":
+			{
+				"Idle": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MF_Unarmed_Idle_Ready.AS_MF_Unarmed_Idle_Ready'",
+				"Cycle":
+				{
+					"Forward": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MF_Unarmed_Jog_Fwd.AS_MF_Unarmed_Jog_Fwd'",
+					"Backward": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MF_Unarmed_Jog_Bwd.AS_MF_Unarmed_Jog_Bwd'",
+					"Left": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MF_Unarmed_Jog_Left.AS_MF_Unarmed_Jog_Left'",
+					"Right": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MF_Unarmed_Jog_Right.AS_MF_Unarmed_Jog_Right'"
+				},
+				"Configs":
+				{
+					"Max Walk Speed": 600,
+					"Max Acceleration": 1500
+				},
+				"Anim Overrides":
+				{
+					"Cup":
+					{
+						"Idle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_CupIdle_1.AS_FTN_CupIdle_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						},
+						"Cycle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_CupIdle_1.AS_FTN_CupIdle_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						}
+					},
+					"Backpack":
+					{
+						"Idle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_AS_FTN_BackPack_1.AS_AS_FTN_BackPack_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						},
+						"Cycle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_AS_FTN_BackPack_1.AS_AS_FTN_BackPack_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						}
+					},
+					"Briefcase":
+					{
+						"Idle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTO/AS_FTO_Purse_Hold.AS_FTO_Purse_Hold'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						},
+						"Cycle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTO/AS_FTO_Purse_Hold.AS_FTO_Purse_Hold'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						}
+					},
+					"Phone":
+					{
+						"Idle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_CellPhoneIdle_1.AS_FTN_CellPhoneIdle_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						},
+						"Cycle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_CellPhoneIdle_1.AS_FTN_CellPhoneIdle_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						}
+					},
+					"Purse":
+					{
+						"Idle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_Purse_Hold.AS_FTN_Purse_Hold'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						},
+						"Cycle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_Purse_Hold.AS_FTN_Purse_Hold'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						}
+					}
+				}
+			},
+			"Crouch":
+			{
+				"Idle": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Crouch_Idle.AS_MM_Unarmed_Crouch_Idle'",
+				"Cycle":
+				{
+					"Forward": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Crouch_Walk_Fwd.AS_MM_Unarmed_Crouch_Walk_Fwd'",
+					"Backward": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Crouch_Walk_Bwd.AS_MM_Unarmed_Crouch_Walk_Bwd'",
+					"Left": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Crouch_Walk_Left.AS_MM_Unarmed_Crouch_Walk_Left'",
+					"Right": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/Lyra/Locomotion/Unarmed/AS_MM_Unarmed_Crouch_Walk_Right.AS_MM_Unarmed_Crouch_Walk_Right'"
+				},
+				"Configs":
+				{
+					"Max Walk Speed": 300,
+					"Max Acceleration": 600
+				},
+				"Anim Overrides":
+				{
+					"Cup":
+					{
+						"Idle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_CupIdle_1.AS_FTN_CupIdle_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						},
+						"Cycle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_CupIdle_1.AS_FTN_CupIdle_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						}
+					},
+					"Backpack":
+					{
+						"Idle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_AS_FTN_BackPack_1.AS_AS_FTN_BackPack_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						},
+						"Cycle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_AS_FTN_BackPack_1.AS_AS_FTN_BackPack_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						}
+					},
+					"Briefcase":
+					{
+						"Idle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTO/AS_FTO_Purse_Hold.AS_FTO_Purse_Hold'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						},
+						"Cycle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTO/AS_FTO_Purse_Hold.AS_FTO_Purse_Hold'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						}
+					},
+					"Phone":
+					{
+						"Idle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_CellPhoneIdle_1.AS_FTN_CellPhoneIdle_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						},
+						"Cycle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_CellPhoneIdle_1.AS_FTN_CellPhoneIdle_1'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						}
+					},
+					"Purse":
+					{
+						"Idle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_Purse_Hold.AS_FTN_Purse_Hold'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						},
+						"Cycle":
+						{
+							"Anim Sequence": "/Script/Engine.AnimSequence'/Game/PRSEssentials/Characters/Mannequins/Animations/CitySample/FTN/AS_FTN_Purse_Hold.AS_FTN_Purse_Hold'",
+							"Start Position": 0,
+							"Override Weight": 1,
+							"Interp Speed": 10,
+							"Blend Time": 0.25,
+							"Blend Type": "UpperBodyMask"
+						}
+					}
+				}
+			}
+		}
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"Name": "TInt_1Way",
+		"Intersection Class": "/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Blueprints/ProceduralRoads/Intersections/TInt/BP_RoadInt_TInt_1Way.BP_RoadInt_TInt_1Way_C'",
+		"Offset":
+		{
+			"X": 630,
+			"Y": 0,
+			"Z": 0
+		}
+	},
+	{
+		"Name": "TInt_2Way",
+		"Intersection Class": "/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Blueprints/ProceduralRoads/Intersections/TInt/BP_RoadInt_TInt_2Way.BP_RoadInt_TInt_2Way_C'",
+		"Offset":
+		{
+			"X": 1030,
+			"Y": 0,
+			"Z": 0
+		}
+	},
+	{
+		"Name": "CR_1Way",
+		"Intersection Class": "/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Blueprints/ProceduralRoads/Intersections/Crossroads/BP_RoadInt_CR_1Way.BP_RoadInt_CR_1Way_C'",
+		"Offset":
+		{
+			"X": 630,
+			"Y": 0,
+			"Z": 0
+		}
+	},
+	{
+		"Name": "CR_2Way",
+		"Intersection Class": "/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Blueprints/ProceduralRoads/Intersections/Crossroads/BP_RoadInt_CR_2Way.BP_RoadInt_CR_2Way_C'",
+		"Offset":
+		{
+			"X": 1030,
+			"Y": 0,
+			"Z": 0
+		}
+	}
+]

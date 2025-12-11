@@ -39,6 +39,15 @@
 			"End Side Falloff": 300,
 			"Start Roll": 0,
 			"End Roll": 0
+		},
+		"Pedestrians":
+		{
+			"Pedestrian Lane Offset": 500,
+			"Pedestrian Lane Offset Adjustment Range (Min, Max)":
+			{
+				"X": -100,
+				"Y": 100
+			}
 		}
 	},
 	{
@@ -81,6 +90,15 @@
 			"End Side Falloff": 300,
 			"Start Roll": 0,
 			"End Roll": 0
+		},
+		"Pedestrians":
+		{
+			"Pedestrian Lane Offset": 900,
+			"Pedestrian Lane Offset Adjustment Range (Min, Max)":
+			{
+				"X": -100,
+				"Y": 100
+			}
 		}
 	},
 	{
@@ -123,6 +141,15 @@
 			"End Side Falloff": 300,
 			"Start Roll": 0,
 			"End Roll": 0
+		},
+		"Pedestrians":
+		{
+			"Pedestrian Lane Offset": 500,
+			"Pedestrian Lane Offset Adjustment Range (Min, Max)":
+			{
+				"X": -100,
+				"Y": 100
+			}
 		}
 	},
 	{
@@ -165,6 +192,15 @@
 			"End Side Falloff": 300,
 			"Start Roll": 0,
 			"End Roll": 0
+		},
+		"Pedestrians":
+		{
+			"Pedestrian Lane Offset": 900,
+			"Pedestrian Lane Offset Adjustment Range (Min, Max)":
+			{
+				"X": -100,
+				"Y": 100
+			}
 		}
 	},
 	{
@@ -207,6 +243,15 @@
 			"End Side Falloff": 300,
 			"Start Roll": 0,
 			"End Roll": 0
+		},
+		"Pedestrians":
+		{
+			"Pedestrian Lane Offset": 500,
+			"Pedestrian Lane Offset Adjustment Range (Min, Max)":
+			{
+				"X": -100,
+				"Y": 100
+			}
 		}
 	},
 	{
@@ -249,6 +294,15 @@
 			"End Side Falloff": 300,
 			"Start Roll": 0,
 			"End Roll": 0
+		},
+		"Pedestrians":
+		{
+			"Pedestrian Lane Offset": 900,
+			"Pedestrian Lane Offset Adjustment Range (Min, Max)":
+			{
+				"X": -100,
+				"Y": 100
+			}
 		}
 	}
 ]
