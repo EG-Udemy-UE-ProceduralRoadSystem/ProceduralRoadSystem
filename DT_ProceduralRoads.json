@@ -48,6 +48,15 @@
 				"X": -100,
 				"Y": 100
 			}
+		},
+		"Vehicles":
+		{
+			"Vehicle Lane Offset": 0,
+			"Vehicle Lane Offset Adjustment Range (Min, Max)":
+			{
+				"X": -100,
+				"Y": 100
+			}
 		}
 	},
 	{
@@ -95,6 +104,15 @@
 		{
 			"Pedestrian Lane Offset": 900,
 			"Pedestrian Lane Offset Adjustment Range (Min, Max)":
+			{
+				"X": -100,
+				"Y": 100
+			}
+		},
+		"Vehicles":
+		{
+			"Vehicle Lane Offset": 300,
+			"Vehicle Lane Offset Adjustment Range (Min, Max)":
 			{
 				"X": -100,
 				"Y": 100
@@ -150,6 +168,15 @@
 				"X": -100,
 				"Y": 100
 			}
+		},
+		"Vehicles":
+		{
+			"Vehicle Lane Offset": 0,
+			"Vehicle Lane Offset Adjustment Range (Min, Max)":
+			{
+				"X": -100,
+				"Y": 100
+			}
 		}
 	},
 	{
@@ -197,6 +224,15 @@
 		{
 			"Pedestrian Lane Offset": 900,
 			"Pedestrian Lane Offset Adjustment Range (Min, Max)":
+			{
+				"X": -100,
+				"Y": 100
+			}
+		},
+		"Vehicles":
+		{
+			"Vehicle Lane Offset": 300,
+			"Vehicle Lane Offset Adjustment Range (Min, Max)":
 			{
 				"X": -100,
 				"Y": 100
@@ -252,6 +288,15 @@
 				"X": -100,
 				"Y": 100
 			}
+		},
+		"Vehicles":
+		{
+			"Vehicle Lane Offset": 300,
+			"Vehicle Lane Offset Adjustment Range (Min, Max)":
+			{
+				"X": -100,
+				"Y": 100
+			}
 		}
 	},
 	{
@@ -299,6 +344,15 @@
 		{
 			"Pedestrian Lane Offset": 900,
 			"Pedestrian Lane Offset Adjustment Range (Min, Max)":
+			{
+				"X": -100,
+				"Y": 100
+			}
+		},
+		"Vehicles":
+		{
+			"Vehicle Lane Offset": 300,
+			"Vehicle Lane Offset Adjustment Range (Min, Max)":
 			{
 				"X": -100,
 				"Y": 100
