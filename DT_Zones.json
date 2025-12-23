@@ -1,0 +1,50 @@
+[
+	{
+		"Name": "Z1",
+		"Zone Name": "Downtown District",
+		"Pedestrians List": [
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Characters/Blueprints/NPC/BP_Ped_Male_Red.BP_Ped_Male_Red_C'",
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Characters/Blueprints/NPC/BP_Ped_Female_Red.BP_Ped_Female_Red_C'"
+		],
+		"Vehicles List": [
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Vehicles/Blueprints/OffroadCar/BP_Vehicle_OffroadCar_Black.BP_Vehicle_OffroadCar_Black_C'",
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Vehicles/Blueprints/SportsCar/BP_Vehicle_SportsCar_Black.BP_Vehicle_SportsCar_Black_C'"
+		]
+	},
+	{
+		"Name": "Z2",
+		"Zone Name": "Market Street",
+		"Pedestrians List": [
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Characters/Blueprints/NPC/BP_Ped_Male_Green.BP_Ped_Male_Green_C'",
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Characters/Blueprints/NPC/BP_Ped_Female_Green.BP_Ped_Female_Green_C'"
+		],
+		"Vehicles List": [
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Vehicles/Blueprints/OffroadCar/BP_Vehicle_OffroadCar_Emerald.BP_Vehicle_OffroadCar_Emerald_C'",
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Vehicles/Blueprints/SportsCar/BP_Vehicle_SportsCar_Emerald.BP_Vehicle_SportsCar_Emerald_C'"
+		]
+	},
+	{
+		"Name": "Z3",
+		"Zone Name": "Financial Quater",
+		"Pedestrians List": [
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Characters/Blueprints/NPC/BP_Ped_Male_Blue.BP_Ped_Male_Blue_C'",
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Characters/Blueprints/NPC/BP_Ped_Female_Blue.BP_Ped_Female_Blue_C'"
+		],
+		"Vehicles List": [
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Vehicles/Blueprints/OffroadCar/BP_Vehicle_OffroadCar_Orange.BP_Vehicle_OffroadCar_Orange_C'",
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Vehicles/Blueprints/SportsCar/BP_Vehicle_SportsCar_Orange.BP_Vehicle_SportsCar_Orange_C'"
+		]
+	},
+	{
+		"Name": "Z4",
+		"Zone Name": "Old Town",
+		"Pedestrians List": [
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Characters/Blueprints/NPC/BP_Ped_Male_Yellow.BP_Ped_Male_Yellow_C'",
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Characters/Blueprints/NPC/BP_Ped_Female_Yellow.BP_Ped_Female_Yellow_C'"
+		],
+		"Vehicles List": [
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Vehicles/Blueprints/OffroadCar/BP_Vehicle_OffroadCar_Purple.BP_Vehicle_OffroadCar_Purple_C'",
+			"/Script/Engine.BlueprintGeneratedClass'/Game/ProceduralRoadSystem/Vehicles/Blueprints/SportsCar/BP_Vehicle_SportsCar_Purple.BP_Vehicle_SportsCar_Purple_C'"
+		]
+	}
+]
